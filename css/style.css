@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+.Head{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.484), rgba(255, 0, 0, 0.484)),url(../images/events-heavenly-header.jpg);
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.lorem,
+.lorem-2,
+.lorem-3,
+.lorem-4
+{
+
+    display: none;
+    background-color: #CCCCCC;
+}
+#singer
+{
+    cursor: pointer;
+}
+/*  */
+.singer,
+.singer-2,
+.singer-3,
+.singer-4
+{
+background-color: #E68285;
+}
+
+
+
+.time{
+
+   
+    height: 50vh;
+    
+    
+}
+.count{
+    /* justify-content: space-between; */
+    padding: 50px ;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-color: white;
+    width: 22%;
+  
+  
+}
+.count-image{
+  
+    background-image:linear-gradient(rgba(255, 0, 0, 0.484), rgba(255, 0, 0, 0.484)), url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.div-time{
+    padding: 50px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.sidebar
+{
+width: 25%;
+height: 100%;
+background-color: black;
+position: fixed;
+z-index: 44;
+display: flex;
+align-items: flex-start;
+}
+
+
+  
+
+.setting{
+    z-index: 4645;
+    position: fixed;
+    position: relative;
+    left: 98%;
+    top: 50%;
+    width: 10%;
+    height: auto;
+    /* background-color: black; */
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    
+}
+.sidebar a:hover{
+    color: #E68285;
+
+}
+
+.close{
+    right: 25px;
+}
+.fa-brands,.fa-basketball
+{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    color: grey;
+    transition: color ;
+}
+
+.fa-basketball:hover{
+    background-color: #D62E33;
+    color: white;
+}
+.fa-brands:hover{
+    background-color: #D62E33;
+    color: white;
+    
+}
+
+
